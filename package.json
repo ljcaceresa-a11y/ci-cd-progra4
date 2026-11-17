@@ -1,0 +1,13 @@
+{
+  "name": "ci-cd-progra4",
+  "version": "1.0.0",
+  "description": "Pipeline CI/CD para Programacion IV",
+  "main": "src/operaciones.js",
+  "scripts": {
+    "test": "node --test",
+    "build": "if not exist dist mkdir dist && copy src\\operaciones.js dist\\operaciones.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
